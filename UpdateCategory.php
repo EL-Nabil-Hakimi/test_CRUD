@@ -64,7 +64,7 @@ mysqli_close($conn);
           </li>
        
           <li>
-            <a href="subcategory.php"><span class="fa fa-cogs"></span>SubCategory</a>
+            <a href="SubCategory.php"><span class="fa fa-cogs"></span>SubCategory</a>
           </li>
          
           <li>

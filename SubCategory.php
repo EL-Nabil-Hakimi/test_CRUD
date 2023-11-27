@@ -89,7 +89,7 @@ mysqli_close($conn);
           </li>
        
           <li>
-            <a href="subcategory.php"><span class="fa fa-cogs"></span>SubCategory</a>
+            <a href="SubCategory.php"><span class="fa fa-cogs"></span>SubCategory</a>
           </li>
          
           <li>
@@ -192,7 +192,7 @@ mysqli_close($conn);
                     ?></td>
                     <td></td>
 
-                    <td><a href="UpdatesubCategory.php?SubCategoryID=<?php echo $row['SubCategoryID'] ?>" class="edit"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                    <td><a href="UpdateSubcategory.php?SubCategoryID=<?php echo $row['SubCategoryID'] ?>" class="edit"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                     <a href="SubCategory.php?SubCategoryID=<?php echo $row['SubCategoryID'] ?>" class="delete"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a></td>
 
                 </tr>
